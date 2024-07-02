@@ -1,0 +1,56 @@
+@media screen and (max-width: 760px) {
+    .left{
+        font-size: medium;
+    }
+    .right ul li a{
+        font-size: small;
+    }
+    .image-generator h1{
+        font-size: 1.8rem;
+    }
+    .image-generator p{
+        font-size:1rem;
+    }
+    .image-generator .generate-form{
+        margin-top: 30px;
+        height:52px;
+        display: block;
+    }
+    .generate-form .controls{
+        height: 40px;
+        margin-top: 15px;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .generate-form .img-quantity{
+        color:whitesmoke
+    }
+    .generate-form .img-quantity option{
+        color:black
+    }
+    .generate-form button{
+        font-size: meidum;
+        letter-spacing: 0;
+        padding:1vh;
+        margin-top: 1vh;
+    }
+    .generate-form button:hover{
+    letter-spacing: 0.2rem;
+    padding: 0.2rem 1.1rem;
+    background: var(--clr);
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+    animation: box 3s infinite;
+    }
+    .image-gallery .img-cad:not(.loading).download-btn{
+        display: flex;
+    }
+    .image-gallery{
+        margin-top: 20px;
+    }
+  }
+  @media screen and (max-width: 550px){
+    .image-gallery .img-cad{
+        width: 100%;
+    }
+  }
